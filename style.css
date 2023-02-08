@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+background-color: #0D192C;
+}
+
+.mainbox{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #15263F;
+    width: 350px;
+    border-radius: 15px;
+    padding: 24px;
+    margin: auto;
+    margin-top: 152px;
+    margin-bottom: 152px;
+    
+}
+.mainimg{
+    background-color: #00FFF8;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../images/image-equilibrium.jpg);
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    
+}
+.text{
+    margin-top: 24px;
+    
+}
+
+h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+h1:hover{
+    color: #00FFF8;
+}
+
+.minimg2{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #00FFF8;
+    opacity: 0.5;
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    visibility: hidden;
+}
+.minimg2 img {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 30px;
+    margin-top: 136px;
+    margin-left: 129px;
+}
+
+
+.mainimg:hover .minimg2{
+    visibility: visible;
+    cursor: pointer;
+    
+}
+
+.bigtext{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #8BACD9;
+    margin-top: 16px;
+}
+
+.time p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8BACD9;
+}
+.eth p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: Cyan;
+}
+
+.eth{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.time{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.etherium{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.line{
+    width: 302px;
+    background-color: #2E405A;
+    background-size: 100%;
+    height: 1px;
+    margin-top: 24px;
+}
+.avatar p{
+    color: #8BACD9;
+}
+
+.avatar p a{
+    color: #FFFFFF;
+}
+.avatar p a:hover{
+    color: #00FFF8;
+}
+
+.avatar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-size: 100%;
+    height: 33px;
+    overflow: hidden;
+    margin-top: 22px;
+    margin-bottom: 32px;
+}
+.avimg{
+    background-size: 100%;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    border-radius: 90px;
+    border: 1px solid white;
+    margin-right: 16px;
+
+}
+.avimg img{
+    width: 33px;
+    height: 33px;
+}
